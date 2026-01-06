@@ -14,10 +14,10 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
 -- Configurações Iniciais
-local VELOCIDADE_PADRAO = 50
+local VELOCIDADE_PADRAO = 100
 local ATIVADO_SPEED = false
 local PODERES_LISTA = {
-    "Dark Flames", "Cruel Sun", "Draedron's Tech", "Yoru", "Plasma Orbs", 
+    "Dark Flames", "Cruel Sun", "Halloween Sword", "Draedron's Tech", "Yoru", "Plasma Orbs", 
     "Undead Staff", "Sonic Barrage", "Rebound Blast", "sonic boom", 
     "Super Sonic Wave", "Tesseract", "Tesla Turret", "Twin-Photon Blast", 
     "Hyper Slash", "Photon Blast", "Sonic Twister", "Nuclear Spore", 
@@ -52,7 +52,7 @@ MainFrame.Draggable = true
 local Title = Instance.new("TextLabel")
 Title.Parent = MainFrame
 Title.Size = UDim2.new(1, 0, 0, 40)
-Title.Text = "F22-MENU-Elementares"
+Title.Text = "F22 MENU-Elementares"
 Title.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.Font = Enum.Font.SourceSansBold
